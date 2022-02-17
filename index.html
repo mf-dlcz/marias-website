@@ -9,11 +9,11 @@
 		/>
 		<meta
 			name="description"
-			content="This website is a portfolio of Maria Delacruz. 
-			She's a Front-End Developer from Los Angeles, CA."
+			content="Maria Delacruz is a Front-End Developer from California. 
+			Please, check out her website and contact information for job inquiries."
 		/>
-		<title>Maria Delacruz's Work Portfolio</title>
-		<link rel="stylesheet" href="style.css" />
+		<title>Front-End Developer - Maria Delacruz</title>
+		<link rel="stylesheet" href="/style.css" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -30,7 +30,9 @@
 		<!--Navigation Bar (bootstrap)-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">Maria Delacruz</a>
+				<a class="navbar-brand" href="/index.html" title="Homepage"
+					>Maria Delacruz</a
+				>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -48,56 +50,75 @@
 							<a
 								class="nav-link active"
 								aria-current="page"
-								href="index.html"
+								href="/"
+								title="Homepage"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="about.html">About me</a>
+							<a
+								class="nav-link"
+								href="/about.html"
+								title="About Maria Delacruz"
+								>About me</a
+							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="about.html#contact">Contact</a>
+							<a
+								class="nav-link"
+								href="/about.html#contact"
+								title="Contact Maria Delacruz"
+								>Contact</a
+							>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
+		<br />
+		<br />
 		<!--Main Content of my MAIN page describing who I am & what I do-->
-		<h2 class="text-center">👋🏼 Hi I am</h2>
+		<h2 class="text-center pt-5">👋🏼 Hi I am</h2>
 		<h1 class="text-center">Maria Delacruz</h1>
 		<h3 class="text-center">
 			🇺🇸 Front-end developer, based in Los Angeles
 		</h3>
-		<div class="navigation-links">
-			<a href="about.html#contact" class="primary-link" title="Contact"
+		<div class="navigation-links mb-4">
+			<a
+				href="/about.html#contact"
+				class="primary-link"
+				title="Contact Maria Delacruz"
 				>Contact me</a
 			>
-			<a href="about.html" class="secondary-link" title="About Me"
+			<a
+				href="/about.html"
+				class="secondary-link"
+				title="About Maria Delacruz"
 				>About</a
 			>
 		</div>
 		<!--Container that Holds Pictures and information about my MAIN page-->
 		<!--Weather APP Container-->
-		<div class="container-fluid border">
-			<div class="row mt-5">
+		<div class="container border">
+			<div class="row">
 				<div class="col-sm-6">
 					<img
-						src="images/weather.png"
+						src="/images/weather.png"
 						alt="Created a Weather App"
-						class="img-fluid shadow bg-body index-img"
+						class="img-fluid shadow bg-body d-none d-sm-block"
 						title="Weather App"
 					/>
 				</div>
 				<div class="col-sm-6">
-					<h2 class="pb-3">Weather App</h2>
-					<p class="ms-2 pb-5 project-description">
+					<h2>Weather App</h2>
+					<p class="ms-2 pb-4 project-description">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Perferendis quia, dignissimos nam ratione veniam quibusdam
 						porro omnis quam vel eos eveniet alias temporibus deserunt
 						veritatis minima fugiat ex
 					</p>
 					<a
-						href="about.html#contact"
+						href="/about.html#contact"
 						class="primary-link project-link"
 						title="Launch Weather App"
 						>Weather App</a
@@ -107,8 +128,8 @@
 			<!--Container holds YOGA APP Information and image-->
 			<div class="row mt-5">
 				<div class="col-sm-6">
-					<h2 class="pb-3">Yoga App</h2>
-					<p class="ms-2 pb-5 project-description">
+					<h2>Yoga App</h2>
+					<p class="ms-2 pb-4 project-description">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Perferendis quia, dignissimos nam ratione veniam quibusdam
 						porro omnis quam vel eos eveniet alias temporibus deserunt
@@ -123,38 +144,40 @@
 				</div>
 				<div class="col-sm-6">
 					<img
-						src="images/yoga.png"
+						src="/images/yoga.png"
 						alt="Created a Yoga App"
-						class="img-fluid ms-3 shadow bg-body index-img"
+						class="img-fluid ms-3 shadow bg-body d-none d-sm-block"
 						title="Yoga App"
 					/>
 				</div>
 			</div>
 			<!--Container holds Yogurt Website information & image-->
-			<div class="row mt-5">
+			<div class="row mt-4">
 				<div class="col-sm-6">
 					<img
-						src="images/yogurt.png"
+						src="/images/yogurt.png"
 						alt="Created a Yogurt App"
-						class="img-fluid me-3 shadow bg-body index-img"
+						class="img-fluid me-3 shadow bg-body d-none d-sm-block"
 						title="Yogurt App"
 					/>
 				</div>
 				<div class="col-sm-6">
-					<h2 class="pb-3">Yogurt App</h2>
-					<p class="ms-2 pb-5 project-description">
+					<h2 class="pt-3">Yogurt App</h2>
+					<p class="ms-2 pb-4 project-description">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Perferendis quia, dignissimos nam ratione veniam quibusdam
 						porro omnis quam vel eos eveniet alias temporibus deserunt
 						veritatis minima fugiat ex
 					</p>
 					<a
-						href="about.html#contact"
+						href="/about.html#contact"
 						class="primary-link project-link"
 						id="project-link"
 						title="Launch Yogurt App"
 						>Yogurt App</a
 					>
+					<br />
+					<br />
 				</div>
 			</div>
 		</div>
